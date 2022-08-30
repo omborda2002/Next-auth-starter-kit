@@ -3,8 +3,8 @@
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "cross-env NODE_ENV=production node server.js",
-    "client": "npx next dev -H 127.0.0.1",
+    "start": "next start -H 0.0.0.0 -p ${PORT:-3000}",
+    "client": "npx next dev -H 0.0.0.0 -p ${PORT:-3000}",
     "sitemap": "next-sitemap --config next-sitemap.config.js"
   },
   "dependencies": {
