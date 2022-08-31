@@ -1,10 +1,9 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next start -H 0.0.0.0 -p ${PORT:-3000}",
+    "dev": "next dev -H 0.0.0.0 -p ${PORT:-3000}",
     "build": "next build",
     "start": "next start -H 0.0.0.0 -p ${PORT:-3000}",
-    "client": "npx next dev -H 0.0.0.0 -p ${PORT:-3000}",
     "sitemap": "next-sitemap --config next-sitemap.config.js"
   },
   "dependencies": {
@@ -38,7 +37,7 @@
   "name": "next-starter-with-auth",
   "description": "Most of the time the default Next.js server will be enough but there are times you'll want to run your own server to integrate into an existing application. Next.js provides [a custom server api](https://nextjs.org/docs/advanced-features/custom-server).",
   "version": "1.0.0",
-  "main": "middleware.js",
+  "main": "server.js",
   "directories": {
     "lib": "lib"
   },
