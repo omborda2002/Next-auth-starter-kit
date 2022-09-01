@@ -7,7 +7,7 @@ import Cat from "../../svgs/cat.svg";
 import { deleteAllCookies } from "../../common/logout/index";
 import { useRouter } from "next/router";
 
-function Dashboard() {
+function DashboardLanding() {
   const router = useRouter();
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const { data: session } = useSession();
@@ -57,4 +57,4 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+export default DashboardLanding;

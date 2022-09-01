@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import Link from "next/link";
-import Layout from "../../components/Layout";
+// import Layout from "../../components/Layout";
 
 const About = (props) => {
   const [loaded, setLoaded] = useState(false);
@@ -44,11 +44,11 @@ About.defaultProps = {
 
 About.pageTransitionDelayEnter = true;
 
-About.getLayout = function getLayout(page) {
-  /**
-   * @description here all data can be fetched from the layout of each pages
-   */
-  return <Layout>{page}</Layout>;
-};
+// About.getLayout = function getLayout(page) {
+//   /**
+//    * @description here all data can be fetched from the layout of each pages
+//    */
+//   return <Layout>{page}</Layout>;
+// };
 
 export default About;
