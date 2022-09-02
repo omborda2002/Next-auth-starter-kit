@@ -5,6 +5,7 @@ import clientPromise from "../../../lib/mongodb";
 
 export default NextAuth({
   adapter: MongoDBAdapter(clientPromise),
+  site: process.env.NEXTAUTH_URL,
   // Configure one or more authentication providers
   providers: [
     GoogleProvider({
