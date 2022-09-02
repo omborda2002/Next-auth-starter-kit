@@ -16,6 +16,7 @@ module.exports = {
   }
 };
 
+
 // TODO withPWA adding like below comment example
 // module.exports = withPWA({
 //   pwa: {
