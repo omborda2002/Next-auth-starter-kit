@@ -1,6 +1,4 @@
 import { NextResponse } from "next/server";
-import { getToken } from "next-auth/jwt";
-import { getSession } from "next-auth/react";
 
 export async function middleware(req) {
   let res = NextResponse.next();
