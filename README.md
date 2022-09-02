@@ -13,5 +13,5 @@ Pending :
 NOTE : GENERATE SITEMAP AT TIME YOU NEED TO DO THIS :
 
 1. npm run build
-
 2. npm run sitemap
+3. heroku url = https://next-auth-starter.herokuapp.com
